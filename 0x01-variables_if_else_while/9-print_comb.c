@@ -16,9 +16,8 @@ int main(void)
 	
 	for (c = 0; c <= 9; c++)
 	{
-		putchar( c % 10 + '0')
-			if ( c == 9 )
-				continue;
+		putchar(c);
+		if (c == 9)
 
 		putchar(',');
 		putchar(' ');
@@ -26,5 +25,4 @@ int main(void)
 	putchar('\n')
 
 	return (0);
-}
 
