@@ -14,8 +14,8 @@ int main(void)
 	{
 		for (digit2 = 0; digit2 < 99; digit2++)
 		{
-			putchar(digit1)
-			putchar(digit2)
+			putchar(digit1);
+			putchar(digit2);
 
 			if (digit1 != 99 && digit2 != 99)
 			{
@@ -24,7 +24,7 @@ int main(void)
 			}
 		}
 	}
-putchar('\n')
+putchar('\n');
 
 return (0);
 }
