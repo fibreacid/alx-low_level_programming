@@ -15,7 +15,6 @@ int main(void)
 		for (digit2 = digit1 + 1; digit2 < 99; digit2++)
 		{
 			putchar(digit1);
-			//putchar(digit1 % 10 + '0');
 			putchar(' ');
 			putchar(digit2);
 
