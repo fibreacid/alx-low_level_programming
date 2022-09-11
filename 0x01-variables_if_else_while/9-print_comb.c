@@ -13,9 +13,9 @@ int main(void)
 {
 	int num;
 
-	for(num = 0; num <= 9; num++)
+	for(num = 'a'; num <= 'i'; num++)
 	{
-		putchar("%d\n", num);
+		putchar(num);
 	}
 return(0);
 }
