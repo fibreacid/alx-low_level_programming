@@ -10,13 +10,13 @@ int main(void)
 {
 	int digit1, digit2, digit3, digit4;
 
-	for (digit1 = '0'; digit1 < '9'; digit1++)
+	for (digit1 = 47; digit1 < 58; digit1++)
 	{
-		for (digit2 = '0'; digit2 < '9'; digit2++)
+		for (digit2 = 47; digit2 < 58; digit2++)
 		{
-			for (digit3 = digit1; digit3 < '9'; digit3++)
+			for (digit3 = digit1; digit3 < 58; digit3++)
 			{
-				for (digit4 = '0'; digit4 < '9'; digit4++)
+				for (digit4 = 47; digit4 < 58; digit4++)
 				{
 					/*if (digit1 != '9' && digit2 != '9' && digit3 != '9' && digit4 != '9')*/
 					if (!(digit1 == digit2 && digit3 == digit4))
