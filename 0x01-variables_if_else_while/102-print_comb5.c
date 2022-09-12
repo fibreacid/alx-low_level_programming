@@ -25,7 +25,7 @@ int main(void)
 						putchar(' ');
 						putchar(digit3);
 						putchar(digit4);
-						pustchar(',');
+						putchar(',');
 					}
 				}
 			}
