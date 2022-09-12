@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (digit2 = 48; digit2 < 58; digit2++)
 		{
-			for (digit3 = 49; digit3 < 58; digit3++)
+			for (digit3 = digit1; digit3 < 60; digit3++)
 			{
 				for (digit4 = 48; digit4 < 58; digit4++)
 				{
