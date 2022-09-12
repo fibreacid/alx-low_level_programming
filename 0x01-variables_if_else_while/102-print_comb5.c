@@ -19,7 +19,7 @@ int main(void)
 				for (digit4 = '0'; digit4 < '9'; digit4++)
 				{
 					/*if (digit1 != '9' && digit2 != '9' && digit3 != '9' && digit4 != '9')*/
-					if (!(digit1 == digit2 && digit3 == digit4))
+					if (digit1 == digit2 && digit3 == digit4)
 					{
 						putchar(digit1);
 						putchar(digit2);
