@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Decription - program that prints all possible different combinations of three digits.
+ * Decription - program prints possible different combinations of three digits.
  *
  * return 0;
  */
@@ -29,5 +29,5 @@ int main(void)
 		}
 	}
 putchar('\n');
-return(0);
+return (0);
 }
