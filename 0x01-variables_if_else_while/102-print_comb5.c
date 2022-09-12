@@ -8,26 +8,31 @@
 
 int main(void)
 {
-	int digit1, digit2;
+	int digit1, digit2, digit3, digit4;
 
-	for (digit1 = 0; digit1 < 10; digit1++)
+	for (digit1 = '0'; digit1 < '9'; digit1++)
 	{
-		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+		for (digit2 = '0'; digit2 < '9'; digit2++)
 		{
-			putchar(digit1 / 10);
-			putchar(digit1 % 10);
-			putchar(' ');
-			putchar(digit2 / 10);
-			putchar(digit2 % 10);
-
-			if (digit1 != 9 && digit2 != 9)
+			for (digit3 = '0'; digit3 < '9'; digit3++)
 			{
-				putchar(',');
-				putchar(' ');
+				for (digit4 = '0'; digit4 < '9'; digit4++)
+				{
+					if (digit1 != '9' && digit2 != '9' && digit3 != '9' && digit4 != '9')
+					{
+						putchar(digit1);
+						putchar(digit2);
+						putchar(' ');
+						putchar(digit3);
+						putchar(digit4);
+						pustchar(',');
+					}
+				}
 			}
 		}
 	}
-putchar('\n');
-
-return (0);
+	putchar('\n')
+	
+	return (0);
 }
+
