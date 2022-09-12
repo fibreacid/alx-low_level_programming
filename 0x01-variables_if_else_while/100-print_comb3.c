@@ -9,24 +9,23 @@
  */
 
 int main(void)
-
 {
+	int a, b;
 
-int digit1, digit2;
-
-for (digit1 = 0; digit1 < 10; digit1++)
-{
-	for (digit2 = 0; digit2 < 10; digit2++)
+	for (a = '0'; a < '9'; a++)
 	{
-		putchar((digit1 % 10) + '0');
-		putchar((digit2 % 10) + '0');
-		
-		if (digit1 == 9 && digit2 == 9)
-			
-		putchar(',');
-		putchar(' ');
+		for (b = '0'; b < '9'; b++)
+		{
+			if (a != '9' && b != '9')
+			{
+				putchar(a);
+				putchar(b);
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
-}
-putchar('\n');
-return (0);
+	putchar('\n');
+
+	return(0);
 }
