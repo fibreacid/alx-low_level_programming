@@ -15,11 +15,11 @@ void print_alphabet(void)
 
 	char letters = start;
 
-	while (letters != end)
+	while (letters == end)
 	{
 		_putchar(letters);
-		_putchar('\n');
 		letters++;
+		_putchar('\n');
 	}
 }
 
