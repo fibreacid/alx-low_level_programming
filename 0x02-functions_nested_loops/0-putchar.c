@@ -1,15 +1,8 @@
-/*
- * File: 0-putchar
- *
- */
-
 #include "main.h"
 /*
- * main -  Entry point
+ * main -  program prints _putchar, followed by new line
  *
- * Description - program that prints _putchar, followed by new line
- *
- * return 0;
+ * Return: Always 0 (success)
  */
 int  main(void)
 {
