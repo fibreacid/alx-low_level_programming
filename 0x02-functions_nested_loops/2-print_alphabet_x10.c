@@ -18,9 +18,11 @@ void print_alphabet_x10(void)
 
 	while(count++ <= 9)
 	{
-		for (letter <= end);
+		for (letter <= end)
+		{
 			_putchar(letter);
-		letter++;
+			letter++;
+		}
 	}
 	_putchar('\n');
 }
