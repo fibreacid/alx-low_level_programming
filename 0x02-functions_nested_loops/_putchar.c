@@ -8,7 +8,7 @@
  * return 0;
  */
 
-int _putchar()
+int _putchar(char c)
 {
-	return (0);
+	return (1);
 }
