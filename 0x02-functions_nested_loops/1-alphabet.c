@@ -1,13 +1,9 @@
 #include "main.h"
-
 /**
- * main -entry point
- *
- * description - program prints alphabets in lower case
- *
- * return 0;
+ * main - Print the alphabet, in lowercase, followed by a new line.
+ * Description: Print the alphabet in lowercase followed by a new line.
+ * Return: 0
  */
-
 void print_alphabet(void)
 {
 	char start = 'a';
