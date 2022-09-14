@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * main - entry point
+ * _isalpha - checks for alphabetic character
  *
- * description - checks for alphabetic character
- *
- * return 0;
+ * return: 0
  */
 int _isalpha(int c)
 {
