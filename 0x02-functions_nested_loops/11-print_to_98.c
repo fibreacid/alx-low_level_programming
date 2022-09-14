@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - Prints all natural numbers from input to 98, in order seperated by comma follwed by a space.
  * @n: The number to begin counting at.
