@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * main - prints 10 times the alphabets in lowercase
+ * main - check the code
  *
- * return 0;
- *
+ * Return: Always 0.
  */
 int main(void)
 {
