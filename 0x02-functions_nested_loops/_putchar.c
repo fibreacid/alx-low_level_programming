@@ -1,6 +1,5 @@
 #include "main.h"
 #include <unistd.h>
-
 /**
  * main -entry point
  *
@@ -8,7 +7,6 @@
  *
  * return 0;
  */
-
 int _putchar(char C)
 {
 	return (0);
