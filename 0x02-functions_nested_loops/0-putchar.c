@@ -1,8 +1,8 @@
 #include "main.h"
-/*
- * main: program prints _putchar, followed by new line
- *
- * Return: Always 0 (success)
+/**
+ * main - Print the string_puthchar followed by new line.
+ * Description: No use of libraries allowed
+ * Return: 0
  */
 int  main(void)
 {
