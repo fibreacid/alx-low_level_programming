@@ -1,5 +1,4 @@
 #include "main.h"
-#include <isupper.h>
 #include <stdio.h>
 
 /**
@@ -10,7 +9,7 @@
 
 int _isupper(int c)
 {
-	char c;
+	int c;
 
 	if (c >= 'A' && c <= 'Z')
 	{
