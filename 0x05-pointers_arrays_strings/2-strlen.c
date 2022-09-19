@@ -3,7 +3,7 @@
 
 /**
  * _strlen - returns the length of a string
- * @s: increment 
+ * @s: increment
  *
  * Return: i
  */
