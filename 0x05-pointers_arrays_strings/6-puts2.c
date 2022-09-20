@@ -4,13 +4,15 @@
 /**
  * puts2 - prints every other character of a string, 
  * starting with the first character, followed by a new
+ * @str: input
+ * Return: string
  */
 
 void puts2(char *str)
 {
 	int i = 0;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if ((i % 2) == 0)
 		{
@@ -20,7 +22,6 @@ void puts2(char *str)
 		{
 			continue;
 		}
-		/*_putchar(str[i]);*/
 	}
 	_putchar('\n');
 }		
