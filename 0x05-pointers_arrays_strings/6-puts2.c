@@ -10,11 +10,17 @@ void puts2(char *str)
 {
 	int i = 0;
 
-	/*local variable definition*/
 	for (i = 0; i < 10; i++)
 	{
-		_putchar(str[i]);
-
+		if ((i % 2) == 0)
+		{
+			_putchar(str[i]);
+		}
+		else
+		{
+			continue;
+		}
+		/*_putchar(str[i]);*/
 	}
 	_putchar('\n');
 }		
