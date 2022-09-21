@@ -5,6 +5,7 @@
  * _strncpy - copies a string.
  * @src: string to be copied.
  * @dest: string to be added.
+ * @n: number of bytes.
  * Return: dest.
  */
 
