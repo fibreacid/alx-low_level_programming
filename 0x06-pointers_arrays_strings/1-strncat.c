@@ -3,26 +3,20 @@
 /**
  * _strncat - concatenates two strings.
  * @src: string to be appeneded to dest.
+ * @dest: string destination
+ * @n: number pf bytes
  * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	unsigned char length, j;
+	int i;
 
-	length = 0;
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
 
-	while (dest[length + 1] < n)
-	{
-		length++;
-	}
+	for (; i < n; i++)
+		dest[i] = '\0';
 
-	for (j = 0; src[j] != '\0'; j++)
-	{
-		length++;
-		dest[length + 1] = src[j];
-	}
-
-	dest[length + 1] = '\0';
 	return (dest);
 }
