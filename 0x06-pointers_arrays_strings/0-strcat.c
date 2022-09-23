@@ -1,10 +1,11 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strncat - Concatenates two strings
+ * _strcat - Concatenates two strings. dest the destination,
+ * src the source.
+ *
  * @dest: The string to be appended upon.
  * @src: The string to be appended to dest.
- * @n: The number of bytes 
  *
  * Return: A pointer to the resulting string dest.
  */
