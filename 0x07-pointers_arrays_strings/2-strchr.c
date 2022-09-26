@@ -10,10 +10,10 @@
 
 char *_strchr(char *s, char c)
 {
-	while (*s != '\n')
+	while (s != '\n')
 	{
-		if (*s == c)
-			return (char *s);
+		if (s == c)
+			return (char s);
 		s++;
 	}
 	return (NULL);
