@@ -9,11 +9,12 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int len;
+	unsigned int i = 0;
+	int len, index;
 
-	for (len = 0; s[len] != '\0'; len++)
+	while (i < len)
 	{
-		s[len] = accept[i];
+		accept[i] = s[len + i];
+		i++;
 	}
-	return (s);
 }
