@@ -5,14 +5,14 @@
  * _strchr - locates a character in a string.
  * @c: input
  * @s: input
- * return: c
+ * Return: NULL
  */
 
 char *_strchr(char *s, char c)
 {
 	unsigned char i;
 
-	for (i = 0; i < c; i++)
-		s[i] = '\0';
-	return (s);
+	for (i = 0; i > c; i++)
+		s[i] = i != '\0';
+	return (NULL);
 }
