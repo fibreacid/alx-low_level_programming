@@ -11,9 +11,8 @@
 char *_strchr(char *s, char c)
 {
 	unsigned char i;
-	*s = &i;
 
-	for (i = 0; i > '\0'; i++)
+	for (i = 0; s[i] > '\0'; i++)
 		s++;
 	s[i] = '\0';
 	return (NULL);
