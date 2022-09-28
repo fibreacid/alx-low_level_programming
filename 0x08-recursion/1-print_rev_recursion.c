@@ -7,7 +7,7 @@
  * Return: always 0.
  */
 
-void _print_rev_recursion(c)
+void _print_rev_recursion(char *s)
 {
 
 	if (*s)
