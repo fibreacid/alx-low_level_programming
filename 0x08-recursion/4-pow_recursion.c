@@ -4,6 +4,7 @@
 /**
  * _pow_recursion - returns the value of x raised to the power of y.
  * @y: input
+ * @x: input
  * Return: negative one if y is less than zero.
  */
 
@@ -19,7 +20,7 @@ int _pow_recursion(int x, int y)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		base *= _pow_recursion(x, y - 1);
 		return (base);
