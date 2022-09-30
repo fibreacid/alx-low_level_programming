@@ -6,8 +6,8 @@
  * Description: program prints its name followed by new line.
  */
 
-int main(int argc, char __attribute__((__unused__)) *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
-	printf("argc = %d\n", argc);
+	printf("%s", agrv[0]);
 	return (0);
 }
