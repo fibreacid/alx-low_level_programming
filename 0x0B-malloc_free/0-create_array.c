@@ -24,7 +24,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (0);
 	}
-	ptr  = (size * malloc(sizeof(char)));
+	ptr  = malloc(sizeof(char) * size);
 
 	for (i = 0; i < size; i++)
 	{
