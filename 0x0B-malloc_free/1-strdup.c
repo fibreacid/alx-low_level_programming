@@ -1,4 +1,5 @@
-#include <stdlib.c>
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * _strdup -  returns a pointer to a new string which 
