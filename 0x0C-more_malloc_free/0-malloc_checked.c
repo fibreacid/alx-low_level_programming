@@ -10,13 +10,10 @@ void *malloc_checked(unsigned int b)
 {
 	int *pts;
 
-	pts = (int*)malloc(b * sizeof(int));
+	pts = malloc(b * sizeof(int));
 
 	if (pts == NULL)
 		return (98);
-
-	for (int i = 0; i < b; ++i)
-		pts[i] = b;
 
 	return (pts);
 }
