@@ -19,7 +19,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 
-	while (s1[index] != '\0')
+	for (index = 0; s1[index]; index++)
 	{
 		++len;
 	}
@@ -28,6 +28,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (mem == NULL)
 		return (NULL);
+
+	len = 0;
 
 
 	for (index = 0; s1[index] != '\0'; ++index)
