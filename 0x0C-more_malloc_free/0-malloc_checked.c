@@ -14,8 +14,5 @@ void *malloc_checked(unsigned int b)
 	if (pts == NULL)
 		return (98);
 
-	for (int i = 0; i < b; ++n)
-		pts[i] = b;
-
 	return (pts);
 }
