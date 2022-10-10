@@ -1,10 +1,13 @@
-#ifndef dog_h
-#define dog_h
+#ifndef DOG_H
+#define DOG_H
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * description: struct dog structure
+/**
+ * struct dog - structure
+ * @name: name
+ * @age: age
+ * @owner: owner
  */
 
 struct dog
@@ -13,4 +16,4 @@ struct dog
 	float age;
 	char *owner;
 };
-#endif
+#endif /* DOG_H */
