@@ -10,10 +10,16 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-
-	dog -> name = name;
-	dog -> age = age;
-	dog -> owner = owner;
-
-	return (dog);
 };
+struct dog my_dog(char *name, float age, char *owner)
+{
+	struct dog *user;
+
+	user = malloc(sizeof(struct dog));
+
+	user -> name = name;
+	user -> age = age;
+	user -> owner = owner;
+
+	return (user);
+}
