@@ -1,8 +1,10 @@
+#ifndef dog_h
+#define dog_h
 #include <stdio.h>
 #include <stdlib.h>
 
 /*
- * dog - structure
+ * description: struct dog structure
  */
 
 struct dog
@@ -11,15 +13,4 @@ struct dog
 	float age;
 	char *owner;
 };
-struct dog my_dog(char *name, float age, char *owner)
-{
-	struct dog *user;
-
-	user = malloc(sizeof(struct dog));
-
-	user -> name = name;
-	user -> age = age;
-	user -> owner = owner;
-
-	return (user);
-}
+#endif
